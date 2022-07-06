@@ -15,7 +15,7 @@ const PostShare = () => {
     if(event.target.files && event.target.files[0]) {
         console.log(event.target.files)
         let img = event.target.files[0];
-        console.log(imageRef.current.click)
+       
         setImage({
             image: URL.createObjectURL(img),
         })
